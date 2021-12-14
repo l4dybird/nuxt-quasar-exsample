@@ -7,7 +7,6 @@ const props = defineProps({
 })
 
 const emit = defineEmits(["hoge"]);
-
 const onHogeClick = (): void => {
   emit("hoge", "hogeeee");
 }
